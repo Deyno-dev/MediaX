@@ -1,84 +1,68 @@
+# 🚧 MediaX — Vision & Roadmap
 
-# 🚧 Project In Progress (working name: MediaX)
-
-> ⚠️ This project is **under heavy development**.  
-> Nothing here should be considered final — the design, name, and roadmap are evolving.  
-> We welcome **feedback, ideas, and name suggestions**.
-
----
-
-## ✨ Vision
-
-The goal of this project is to build a **next-generation media toolkit**:
-
-- 🔐 **Zero-knowledge privacy** — no one but you sees your data.
-- 🧩 **Modular design** — each feature (tagging, backup, deduplication, AI) can stand alone.
-- 🛡 **Resilient storage** — parity, self-healing, and offline safety layers.
-- 🌌 **Future-proof search** — semantic, memory-aware, human-friendly discovery.
-- ⚡ **Cross-platform** — runs locally on Linux, Windows, and macOS with GPU acceleration where available.
-
-This isn’t just “another gallery app.”  
-It’s meant to be **trustworthy infrastructure** for personal and professional archives.
+> ⚠️ **MediaX** is currently in **active private development**.  
+> This public repository serves as a hub for sharing the high-level **vision, roadmap, and community discussions**.  
+> It’s designed to gather feedback, ideas, and explore potential funding opportunities while keeping core development secure and internal.  
+> The actual codebase for MediaX (core pipeline) and the Gallery (user-facing UI) are maintained in private repositories.
 
 ---
 
-## 🚀 Current Status
+## ✨ What is MediaX?
 
-- 🔨 Early architecture work is happening in **private repos**.  
-- 📊 Over **3,000 commits** have already been made in private development.  
-- 📖 This public repo exists as a **blueprint & community board** — code will be published in stages once core parts stabilize.  
+MediaX is envisioned as a **modular, zero-knowledge, privacy-first media management pipeline**—built for individuals and teams who demand control over their digital assets.
 
----
+Key pillars include:
+- 🔐 **Zero-Knowledge Encryption & Secure Backups**: End-to-end privacy with encrypted storage and recovery options that ensure only you hold the keys.
+- 🧩 **Modular AI Integrations**: Tools for deduplication, OCR, NSFW filtering, automated tagging, and semantic search—plug-and-play for customization.
+- 🛡 **Resilient Storage Solutions**: Self-healing parity checks, write-once-read-many (WORM) modes, and escrow-based recovery for long-term data integrity.
+- 🌌 **Future-Proof Architecture**: Offline-first and local-first design, with cross-platform compatibility to adapt to evolving tech landscapes.
+- ⚡ **Performance-Optimized**: Leveraging Rust for efficiency, GPU acceleration for heavy tasks, and asynchronous pipelines for seamless workflows.
 
-## 💡 Open for Suggestions
-
-This is the right time to shape the project.  
-We are open to ideas on:
-
-- Better **project name** (MediaX is temporary).  
-- Feature priorities (what’s most valuable first: backup, dedup, AI tagging, UI?).  
-- Integration ideas (cloud overlays, local-only strongholds, web vs desktop clients).  
-- UI/UX proposals (privacy-first by design).  
-
-👉 Got an idea? [Open an Issue](../../issues) or start a Discussion.  
+At its heart, MediaX is the **foundational backend**—a robust engine for media processing, not a standalone app. It's designed to power applications like galleries, archives, or custom tools.
 
 ---
 
-## 🛡️ Legal / Liability
+## 🖼️ The Gallery Project
 
-- This is **client-side software**.  
-- We **do not host, see, or monitor** user data.  
-- Users are solely responsible for their own content.  
-- See [NOTICE](./NOTICE) for full disclaimers.
+The Gallery is a **companion project** focused on the user experience:
+- 🖥️ **Intuitive Interfaces**: Desktop and web-based UIs for browsing, organizing, and interacting with media.
+- 🔍 **Advanced Search & Filtering**: Powered by MediaX's AI modules for smart queries and recommendations.
+- 🎨 **Editing & Enhancement Tools**: Tag suggestions, previews, and basic edits to streamline workflows.
+- 📊 **Monitoring Dashboards**: Insights into storage health, usage stats, and system performance.
 
----
-
-## ❤️ Funding & Support
-
-If you want to support early development:
-
-- [GitHub Sponsors](https://github.com/sponsors/YOURHANDLE)  
-- [Ko-fi](https://ko-fi.com/YOURPAGE)  
-- [Buy Me a Coffee](https://buymeacoffee.com/YOURPAGE)  
-
-Every bit of support accelerates development and helps keep the project independent.
+Like MediaX, the Gallery is developed in a separate private repository with its own iterative roadmap. It relies on MediaX as its core backend but can evolve independently.
 
 ---
 
-## 📜 License
+## 🚀 Current Status & Roadmap
 
-Dual-licensed under **MIT OR Apache-2.0**.  
-See [LICENSE](./LICENSE) and [NOTICE](./NOTICE) for details.
+- **MediaX Core**: In early internal development with over 3,000 commits across private repos. Modules are being prototyped and tested for stability.
+- **Gallery UI/UX**: Experimental designs and prototypes in progress, focusing on user-centric features.
+- **Public Releases**: Code will be open-sourced in phased stages as components mature—starting with non-core utilities or documentation.
+- **Milestones Ahead**:
+  - Q4 2025: Stabilize core encryption and AI modules.
+  - Q1 2026: Internal beta for Gallery integration.
+  - Ongoing: Community-driven refinements based on feedback here.
+
+This public repo is intentionally lightweight to foster open collaboration without exposing sensitive IP.
 
 ---
 
-## 👀 Summary
+## 💡 Get Involved: Ideas, Feedback, & Funding
 
-This repo is **not the final product**.  
-It’s a place to:
+We're excited to build MediaX with community input! This space is open for:
+- **Naming Suggestions**: "MediaX" is a placeholder—help us find the perfect brand!
+- **Feature Prioritization**: What should we focus on first in the core pipeline vs. the Gallery?
+- **UX/UI Feedback**: Share thoughts on interfaces, workflows, or pain points from similar tools.
+- **Integration Ideas**: How could MediaX plug into existing ecosystems (e.g., cloud services, mobile apps)?
+- **Funding & Partnerships**: If you're interested in supporting development through grants, investments, or collaborations, let's discuss! Reach out via issues or [contact us directly](mailto:deyno.dev@gmail.com)
 
-- Share the vision.  
-- Collect community input.  
-- Track progress openly.  
+Open an issue, start a discussion, or contribute to the docs. Your input shapes the future of MediaX.
 
-The real work is happening fast — and your feedback can help steer it.
+---
+
+## 📜 License & Notes
+
+This repository is licensed under [MIT License](LICENSE) for any shared assets or discussions. Core MediaX code will follow an open-source license upon release.
+
+> Note: MediaX is a passion project in stealth mode. We're committed to privacy and innovation—stay tuned for updates! 🚀
