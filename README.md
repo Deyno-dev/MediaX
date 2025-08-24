@@ -36,7 +36,7 @@ Like MediaX, the Gallery is developed in a separate private repository with its 
 
 ## 🚀 Current Status & Roadmap
 
-- **MediaX Core**: In early internal development with over 3,000 commits across private repos. Modules are being prototyped and tested for stability.
+- **MediaX & MediaX Gallerg**: In early internal development with over 3,000 commits across private repos. Modules are being prototyped and tested for stability.
 - **Gallery UI/UX**: Experimental designs and prototypes in progress, focusing on user-centric features.
 - **Public Releases**: Code will be open-sourced in phased stages as components mature—starting with non-core utilities or documentation.
 - **Milestones Ahead**:
